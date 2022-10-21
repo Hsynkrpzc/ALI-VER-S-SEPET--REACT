@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+
+}
+#bookdiv {
+  background-color: rgb(182, 240, 182);
+}
+.App > h1 {
+  font-size: 22px;
+  background: #222;
+  color: white;
+  padding: 3.5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.App > div {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  margin: 15px;
+  padding: 15px;
+  width: 40%;
+}
+
+.App > h1 > img {
+  width: 20px;
+}
+
+.App > span {
+  float: right;
+  margin-right: 25px;
+  background-color: blue;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.book {
+  display: flex;
+  padding: 30px;
+  margin: 100px 5px 10px 5px;
+  border: 1px solid #ccc;
+}
+.book img {
+  width: 150px;
+  margin: 5px 20px 5px 5px;
+}
